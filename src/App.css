@@ -1,0 +1,67 @@
+main {
+  text-align: center;
+  vertical-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Hanken Grotesk', sans-serif;
+ }
+
+.container{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+
+}
+
+.card {
+  height:350px;
+  width:250px;
+  padding:0 20px 50px ;
+  margin:20px 5px;
+  border:1px solid;
+  border-radius:20px ;
+
+  
+}
+.items {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  border:1px solid;
+  border-radius:10px;
+  padding:0 5px ;
+  margin:15px;
+  line-height:0.3;
+  
+  
+  
+}
+
+button {
+margin:5px;
+padding:10px 70px;
+  border-radius:50px;
+  border:none;
+}
+
+.marks{
+   border-radius:50%;
+ height:150px;
+  width:150px;
+  position:relative;
+  left:40px;
+  padding:10px;
+   background: linear-gradient(180deg, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  line-height:0.1;
+
+  
+  
+  
+}
+
+.result {
+ background: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border:none;
+    color:white;
+  
+ 
+}
