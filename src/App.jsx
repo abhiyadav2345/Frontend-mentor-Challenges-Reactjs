@@ -1,17 +1,17 @@
 import './App.css'
-import  ResultCard  from './components/ResultCard.jsx'
-import  SummaryCard  from './components/SummaryCard.jsx'
+import { ResultCard, SummaryCard } from "./components/result-and-summarycard/index"
+
 
 export default function App() {
   return (
     <main>
-      <div className="container"></div>
+      <div className="container" style={{ height: "20vh" }}></div>
 
-      <div className="container"> 
-        <ResultCard/>
-        <SummaryCard/>
+      <div className="container">
+        <ResultCard />
+        <SummaryCard />
       </div>
-      
+
     </main>
   )
 }

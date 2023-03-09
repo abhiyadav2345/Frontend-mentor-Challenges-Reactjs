@@ -9,11 +9,12 @@ main {
   display:flex;
   flex-direction:row;
   justify-content:center;
-  height:20vh;
+  
  
 
 }
 
+/*  Summary and Result Card CSS  */
 .card {
   height:350px;
   width:250px;
@@ -21,9 +22,12 @@ main {
   margin:20px 5px;
   box-shadow: 10px 10px 15px #F2F5FE;
   border-radius:20px ;
+  align-self:center;
 
   
 }
+
+/* Items inside Summary Card  */
 .items {
   display:flex;
   flex-direction:row;
@@ -37,7 +41,7 @@ main {
   
 }
 
-button {
+.btn-summary {
 margin:5px;
 padding:10px 70px;
   border-radius:50px;
@@ -60,18 +64,14 @@ button:hover{
   padding:10px;
    background: linear-gradient(180deg, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
   line-height:0.1;
-
-  
-  
   
 }
 
 .result {
- background: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+ background: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%,     54%));
   border:none;
-    color:white;
+  color:white;
   
- 
 }
 
 .items:nth-child(2){
@@ -86,3 +86,12 @@ button:hover{
 .items:nth-child(5){
   background:#F3F3FD;
 }
+
+@media screen and (max-width: 702px ) {
+  
+.container {
+  flex-direction:column;
+ }
+}
+
+/*  Summary and Result Card CSS End  */
